@@ -1,8 +1,8 @@
 class Usuario {
     nombre;
     apellido;
-    libros = [];
-    mascotas = [];
+    libros;
+    mascotas;
 
     constructor(nombre,apellido,libros,mascotas) {
         this.nombre = nombre;
